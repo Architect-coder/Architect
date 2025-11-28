@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f6f6;
+}
+
+.hero {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta-btn {
+    background: #fff;
+    color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background: to right (linear-gradient(blue, green));
+}
+
+.images img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.benefits {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.price {
+    text-align: center;
+    padding: 20px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: red;
+}
+
+.new-price {
+    font-size: 24px;
+    color: green;
+    font-weight: bold;
+}
+
+.order {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.order form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.order input, select, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
